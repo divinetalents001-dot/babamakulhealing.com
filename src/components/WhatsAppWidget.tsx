@@ -87,7 +87,7 @@ export function WhatsAppWidget() {
             {/* Greeting Message Bubble */}
             <div className="bg-[#F2ECE1] border border-[#323E34]/12 rounded-md p-3.5 text-sm text-[#1E261F] leading-relaxed">
               Peace and blessings. Choose a healing focus or write your own
-              message below to start a private conversation with our Kampala
+              message below to start a private conversation with our healing
               sanctuary on WhatsApp.
             </div>
 

@@ -45,12 +45,11 @@ export interface BotanicalEntry {
 export const SITE_CONTACT = {
   brandName: 'Baba Makul Healing',
   heritageName: 'Baba Makul Healing',
-  location: 'Kampala, Uganda',
   hours: 'Mon – Sat · 08:30 – 19:00 EAT',
-  phoneDisplay: '+243 896 249 259',
-  phoneRaw: '243896249259',
+  phoneDisplay: '+256 707 367 152',
+  phoneRaw: '256707367152',
   email: 'divinetalents001@gmail.com',
-  whatsappBaseUrl: 'https://wa.me/243896249259',
+  whatsappBaseUrl: 'https://wa.me/256707367152',
 };
 
 export const HERO_MEDIA = {
@@ -166,7 +165,7 @@ export const CLIENT_TESTIMONIALS: Testimonial[] = [
     quote:
       'After eight months of silence and painful misunderstandings, my partner and I finally sat down with open hearts. Within three weeks of following Baba Makul’s guided reconciliation ritual, our home felt warm and connected again.',
     clientName: 'Grace Namukasa',
-    clientContext: 'Kampala · Reconciliation Session',
+    clientContext: 'Reconciliation Session',
     serviceUsed: 'Love & Relationship Healing',
   },
   {
@@ -219,7 +218,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     paragraphs: [
       'Homes absorb the emotions of everyone who enters them. Prolonged worry, conflict, or envy from outside visitors can leave a subtle heaviness that lingers long after a difficult season has passed.',
       'Traditional smoke cleansing with resinous frankincense and wild aromatic herbs works both practically and spiritually: it marks a clear boundary between past turbulence and a fresh chapter.',
-      'During a guided cleansing session from our Kampala sanctuary, we pair morning ventilation, spring water washes at thresholds, and calm resin smoke to restore peaceful rest and mental clarity.',
+      'During a guided cleansing session, we pair morning ventilation, spring water washes at thresholds, and calm resin smoke to restore peaceful rest and mental clarity.',
     ],
   },
   {

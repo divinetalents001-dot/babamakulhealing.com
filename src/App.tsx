@@ -5,7 +5,6 @@ import {
   ChevronUp,
   Clock,
   Mail,
-  MapPin,
   MessageCircle,
   Phone,
 } from 'lucide-react';
@@ -89,7 +88,7 @@ export default function App() {
           <div className="relative max-w-6xl mx-auto px-6 py-20 sm:py-28 lg:py-36">
             <div className="max-w-2xl">
               <p className="text-xs sm:text-sm font-medium tracking-wide text-[#E5C9A3] mb-4">
-                {SITE_CONTACT.location} · African Herbal &amp; Spiritual Healing
+                African Herbal &amp; Spiritual Healing
               </p>
 
               <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-[#FAF7F2] leading-[1.06] [text-wrap:balance]">
@@ -270,10 +269,10 @@ export default function App() {
                   reconciliation, spiritual renewal, and household peace.
                 </p>
                 <p className="mt-3 text-sm text-[#525E53] leading-relaxed">
-                  Operating from Kampala under the stewardship of Baba Makul and
-                  the Baba Makul Healing lineage, every consultation is held in
-                  strict confidence—honoring both ancestral wisdom and the real
-                  emotional pressures of modern life.
+                  Guided by Baba Makul and the Baba Makul Healing lineage, every
+                  consultation is held in strict confidence—honoring both
+                  ancestral wisdom and the real emotional pressures of modern
+                  life.
                 </p>
 
                 <div className="mt-7 flex flex-wrap items-center gap-4">
@@ -318,9 +317,9 @@ export default function App() {
                         01 · Listening &amp; Spiritual Assessment
                       </div>
                       <p className="text-sm text-[#1E261F] leading-relaxed">
-                        You speak openly by WhatsApp or in Kampala about your
-                        relationship, household atmosphere, or lingering emotional
-                        weight.
+                        You speak openly by WhatsApp or in a private consultation
+                        about your relationship, household atmosphere, or
+                        lingering emotional weight.
                       </p>
                     </li>
                     <li className="py-4">
@@ -358,7 +357,7 @@ export default function App() {
                     </h3>
                     <p className="text-sm text-[#525E53]">
                       Selected traditional plants and resins prepared in our
-                      Kampala sanctuary.
+                      apothecary.
                     </p>
                   </div>
                 </div>
@@ -640,19 +639,6 @@ export default function App() {
 
                 <dl className="divide-y divide-[#323E34]/12 border-t border-b border-[#323E34]/12 text-sm">
                   <div className="py-4 flex items-start gap-3">
-                    <MapPin
-                      className="w-4 h-4 text-[#243326] mt-0.5 shrink-0"
-                      aria-hidden="true"
-                    />
-                    <div>
-                      <dt className="text-xs text-[#525E53]">Location</dt>
-                      <dd className="font-medium text-[#1E261F] mt-0.5">
-                        {SITE_CONTACT.location}
-                      </dd>
-                    </div>
-                  </div>
-
-                  <div className="py-4 flex items-start gap-3">
                     <Clock
                       className="w-4 h-4 text-[#243326] mt-0.5 shrink-0"
                       aria-hidden="true"
@@ -727,7 +713,7 @@ export default function App() {
               {SITE_CONTACT.brandName}
             </p>
             <p className="text-xs text-[#FAF7F2]/65 mt-1">
-              {SITE_CONTACT.heritageName} · {SITE_CONTACT.location} ·{' '}
+              African Herbal &amp; Spiritual Healing ·{' '}
               <span className="tabular-nums">{SITE_CONTACT.phoneDisplay}</span>
             </p>
           </div>

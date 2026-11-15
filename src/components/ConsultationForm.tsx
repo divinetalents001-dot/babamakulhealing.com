@@ -107,7 +107,7 @@ export function ConsultationForm({
         <p className="text-sm text-[#2C362D] leading-relaxed mb-5">
           Your confidential request regarding{' '}
           <strong className="font-medium text-[#1E261F]">{receipt.serviceTitle}</strong>{' '}
-          has been prepared. For an immediate conversation with our Kampala herbalists,
+          has been prepared. For an immediate conversation with our herbalists,
           you can send this exact inquiry directly to our WhatsApp desk or email{' '}
           <a
             href={`mailto:${SITE_CONTACT.email}`}
