@@ -48,7 +48,7 @@ export const SITE_CONTACT = {
   hours: 'Mon – Sat · 08:30 – 19:00 EAT',
   phoneDisplay: '+256 707 367 152',
   phoneRaw: '256707367152',
-  email: 'divinetalents001@gmail.com',
+  email: 'makulbaba191@gmail.com',
   whatsappBaseUrl: 'https://wa.me/256707367152',
 };
 
